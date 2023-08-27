@@ -53,32 +53,32 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 fontSize: 25),
           ),
-          actions: [
-            Row(
-              children: [
-                TextButton(
-                    onPressed: () {},
-                    child: const Text(
-                      "Home",
-                      style: TextStyle(
-                        color: Color(
-                          0xff53828c,
-                        ),
-                      ),
-                    )),
-                TextButton(
-                    onPressed: () {},
-                    child: const Text(
-                      "Test",
-                      style: TextStyle(
-                        color: Color(
-                          0xff53828c,
-                        ),
-                      ),
-                    ))
-              ],
-            )
-          ],
+          // actions: [
+          //   Row(
+          //     children: [
+          //       TextButton(
+          //           onPressed: () {},
+          //           child: const Text(
+          //             "Home",
+          //             style: TextStyle(
+          //               color: Color(
+          //                 0xff53828c,
+          //               ),
+          //             ),
+          //           )),
+          //       TextButton(
+          //           onPressed: () {},
+          //           child: const Text(
+          //             "Test",
+          //             style: TextStyle(
+          //               color: Color(
+          //                 0xff53828c,
+          //               ),
+          //             ),
+          //           ))
+          //     ],
+          //   )
+          // ],
         ),
         body: Padding(
           padding: const EdgeInsets.all(15.0),
